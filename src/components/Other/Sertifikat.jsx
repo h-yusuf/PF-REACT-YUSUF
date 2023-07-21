@@ -3,7 +3,7 @@ const Education = () => {
     <>
       <div className="container py-10">
         <h1 className="border-bottom mt-5 mb-5 text-dark display-6 pb-4 text-center">
-        My Experient
+        My Experience
         </h1>
         <div className="row">
             <div className="col-lg-6 col-md-6 mb-5">
