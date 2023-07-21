@@ -8,10 +8,11 @@ const Quotes = () => {
                             makanlah biar ga mati
                         </h4>
 
-                        <figcaption className='blockquote-footer mt-3 fs-6'>
+                        <figcaption className='blockquote-footer  mt-3 fs-6'>
                             <cite title='Source Title'>yusuf gue</cite>
                         </figcaption>
                     </figure>
+                    
                 </div>
             </div>
         </>

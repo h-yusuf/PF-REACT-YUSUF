@@ -1,12 +1,12 @@
-const ContactHero = () => {
+const OtherHero = () => {
     return (
         <>
             <section className='hero-area bg-lcolor'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-11 mx-auto'>
-                            <h1 className='text-white text-center display-5 fw-medium'>
-                                Contact
+                            <h1 className='text-white display-5 fw-medium'>
+                                Hi! I’m <br /> yusuf, saya seorang mahasiswa UI design Dan Web developer.
                             </h1>
                         </div>
                     </div>
@@ -59,4 +59,4 @@ const ContactHero = () => {
     );
 };
 
-export default ContactHero;
+export default OtherHero;

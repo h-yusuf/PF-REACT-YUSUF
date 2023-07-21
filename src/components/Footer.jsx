@@ -43,6 +43,13 @@ const Footer = () => {
                             Contact
                         </Link>
                     </li>
+                    <li className='nav-item'>
+                        <Link
+                            to='/other'
+                            className='nav-link ps-0 pe-2 text-muted text-dark'>
+                            Other
+                        </Link>
+                    </li>
                 </ul>
             </footer>
         </>

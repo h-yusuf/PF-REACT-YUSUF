@@ -6,7 +6,7 @@ const Hero = () => {
                     <div className='row'>
                         <div className='col-lg-11 mx-auto'>
                             <h1 className='text-white display-5 fw-medium'>
-                                Hi! I’m <br /> yusuf, saya seorang mahasiswa.
+                                Hi! I’m <br /> yusuf, saya seorang mahasiswa UI design Dan Web developer.
                             </h1>
                         </div>
                     </div>

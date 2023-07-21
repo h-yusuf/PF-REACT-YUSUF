@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 const Education = () => {
   return (
     <>
@@ -82,13 +81,9 @@ const Education = () => {
                 <a
                   to="/Other"
                   target="_blank"
-                  className="text-dark fs-6 nav-link"
+                  className="text-dark fs-6 "
                 >
-                      <Link
-                            to='/Other'
-                            className='nav-link ps-0 pe-2 text-muted text-dark'>
-                            Other
-                        </Link>
+                  Other
                 </a>       
               </div>
               </div>
