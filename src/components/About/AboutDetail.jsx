@@ -5,7 +5,7 @@ const AboutDetail = () => {
         <div className="row">
           <div className="col-md-8 mt-3">
             <h1 className="mt-5 text-dark display-6 pb-4">
-              <span className="text-primary">Ahmad.</span> Yusuf.
+              <span className="text-primary">Hafidh Muhammad</span> Yusuf.
             </h1>
             <p className="col-md-8 fs-5 text-dark text-justify">
               Portfolio saya menunjukkan hasil karya dan pengalaman saya selama

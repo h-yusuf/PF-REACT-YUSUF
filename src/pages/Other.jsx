@@ -5,7 +5,7 @@ const Other = () => {
     return (
         <>
             <div>
-                <OtherHero />
+                {/* <OtherHero /> */}
                 <Sertifikat />
             </div>
         </>

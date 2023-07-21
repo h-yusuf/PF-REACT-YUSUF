@@ -2,16 +2,16 @@ const OtherHero = () => {
     return (
         <>
             <section className='hero-area bg-lcolor'>
-                <div className='container'>
+                {/* <div className='container'>
                     <div className='row'>
                         <div className='col-lg-11 mx-auto'>
                             <h1 className='text-white display-5 fw-medium'>
-                                Hi! I’m <br /> yusuf, saya seorang mahasiswa UI design Dan Web developer.
+                                     <br /> 
                             </h1>
                         </div>
                     </div>
-                </div>
-                <div className='layer' id='l2'>
+                </div> */}
+                {/* <div className='layer' id='l2'>
                     <img
                         src='/images/illustrations/dots-cyan.png'
                         alt='bg-shape'
@@ -53,7 +53,7 @@ const OtherHero = () => {
                         src='/images/illustrations/leaf-cyan-2.png'
                         alt='bg-shape'
                     />
-                </div>
+                </div> */}
             </section>
         </>
     );

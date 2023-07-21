@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='bg-lcolor'>
+            <div className='bg-lcolor' >
                 <header className='container d-flex flex-wrap justify-content-center py-3 pb-4 border-bottom'>
                     <a
                         href='/'

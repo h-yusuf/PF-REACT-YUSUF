@@ -9,7 +9,7 @@ const Education = () => {
         <div className="row">
           <div className="col-lg-6 col-md-6 mb-5">
             <div className="d-flex">
-              <div className="mr-lg-5 mr-3">
+              <div className="mr-lg-5 me-4">
                 <i className="fa-solid fa-medal icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
               </div>
               <div>
@@ -23,7 +23,7 @@ const Education = () => {
           </div>
           <div className="col-lg-6 col-md-6 mb-5">
             <div className="d-flex">
-              <div className="mr-lg-5 mr-3">
+              <div className="mr-lg-5 me-4">
                 <i className="fa-solid fa-medal icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
               </div>
               <div>
@@ -41,7 +41,7 @@ const Education = () => {
           <div className="row">
             <div className="col-lg-6 col-md-6 mb-5">
               <div className="d-flex">
-                <div className="mr-lg-5 mr-3">
+                <div className="mr-lg-5 me-4">
                   <i className="fa-solid fa-medal icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
                 </div>
                 <div>
@@ -59,7 +59,7 @@ const Education = () => {
             </div>
             <div className="col-lg-6 col-md-6 mb-5">
               <div className="d-flex">
-                <div className="mr-lg-5 mr-3">
+                <div className="mr-lg-5 me-4">
                   <i className="fa-solid fa-medal icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
                 </div>
                 <div>
@@ -87,7 +87,7 @@ const Education = () => {
                       <Link
                             to='/Other'
                             className='nav-link ps-0 pe-2 text-muted text-dark'>
-                            Other
+                            see more
                         </Link>
                 </a>       
               </div>

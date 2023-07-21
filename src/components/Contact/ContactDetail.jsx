@@ -44,11 +44,11 @@ const ContactDetail = () => {
               </div>
               <div className="mb-2">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/yusuf212"
                   target="_blank"
                   className="text-dark fs-4 text-decoration-none"
                 >
-                  <i className="fa-brands fa-linkedin"></i> - hmmmm
+                  <i className="fa-brands fa-linkedin"></i> - @yusuf212
                 </a>
               </div>
             </div>
