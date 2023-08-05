@@ -1,5 +1,26 @@
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 const Education = () => {
+  const resetScroll = () => {
+    window.scrollTo(0, 0);
+  };
+
+  // Menambahkan event listener saat komponen di-mount
+  useEffect(() => {
+    const links = document.querySelectorAll('.reset-scroll-link');
+
+    links.forEach(link => {
+      link.addEventListener('click', resetScroll);
+    });
+
+    // Membersihkan event listener saat komponen di-unmount
+    return () => {
+      links.forEach(link => {
+        link.removeEventListener('click', resetScroll);
+      });
+    };
+  }, []);
+
   return (
     <>
       <div className="container py-16">
@@ -86,7 +107,7 @@ const Education = () => {
                 >
                       <Link
                             to='/Other'
-                            className='nav-link ps-0 pe-2 text-muted text-dark'>
+                            className='nav-link ps-0 pe-2 text-muted text-dark reset-scroll-link'>
                             see more
                         </Link>
                 </a>       
