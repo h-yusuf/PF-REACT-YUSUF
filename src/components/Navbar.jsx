@@ -10,7 +10,7 @@ const Navbar = () => {
                     <a
                         href='/'
                         className='d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none'>
-                        <span className='fs-4 text-white'>
+                        <span className='fs-4 me-3 text-white'>
                             My Portofolio
                         </span>
                     </a>
