@@ -980,3 +980,10 @@ blockquote {
     color: #041C32;
 }
 /*# sourceMappingURL=maps/style.css.map */
+.h-home{
+    height: 95px;
+    width: 80%;
+}
+.text-justify{
+    text-align: justify;
+}

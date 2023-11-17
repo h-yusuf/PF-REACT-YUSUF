@@ -5,9 +5,9 @@ const Hero = () => {
     useEffect(() => {
         // Inisialisasi Typed.js pada elemen dengan ID "typed-text"
         var typed = new Typed('#typed-text', {
-          strings: ["Hi! I’m yusuf as a UI design And Junior Developer Website."],
-          typeSpeed: 40,
-          loop: false,
+          strings: [" UI design","website developer"],
+          typeSpeed: 60,
+          loop: true,
           cursorChar: '',
         });
     
@@ -21,8 +21,13 @@ const Hero = () => {
             <section className='hero-area bg-lcolor'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-11 mx-auto'>
-                            <h1 id="typed-text" className='text-white display-5 fw-medium'></h1>
+                        <div className='col-lg-11 mx-auto h-home' >
+                            <h1 className='text-white fw-medium display-5 '>Hafidh Muhammad Yusuf </h1>
+                            <div className="d-flex gap-4 ">
+                            <span className='fw-medium display-5 text-white '>i'm a 
+                            </span>
+                            <h1 id="typed-text" className='text-white  display-5 fw-medium'> </h1>
+                            </div>
                         </div>
                     </div>
                 </div>

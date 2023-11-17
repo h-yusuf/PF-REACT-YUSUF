@@ -7,11 +7,11 @@ const AboutDetail = () => {
             <h1 className="mt-5 text-dark display-6 pb-4">
               <span className="text-primary">Hafidh Muhammad</span> Yusuf.
             </h1>
-            <p className="col-md-8 fs-5 text-dark text-justify">
+            <p className="fs-5 text-dark text-justify sm me-4">
               Portfolio saya menunjukkan hasil karya dan pengalaman saya selama
-              berkuliah dan mengikuti beberapa proyek kecil. Saya yakin bahwa
-              kualitas hasil karya saya akan terus bertambah dan memuaskan klien
-              saya di masa depan.
+              berkuliah dan mengikuti beberapa proyek . Saya yakin bahwa
+              kualitas hasil karya saya akan terus bertambah berkembang dan memuaskan klien
+              saya di masa mendatang.
             </p>
           </div>
           <div className="col-md-4 d-flex align-items-center justify-content-center">

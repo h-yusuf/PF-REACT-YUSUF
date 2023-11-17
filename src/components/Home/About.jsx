@@ -13,9 +13,8 @@ const About = () => {
               About Me
             </h1>
             <p className="text-dark fs-5 text-center">
-              Saya adalah seorang mahasiswa Desain juga developer FN yang memiliki
-              passion dan minat dalam menciptakan solusi desain yang memudahkan
-              hidup pengguna.
+              Saya adalah seorang mahasiswa, saya mempunyai basic Desain Tapi juga sebagai developer Frond End yang memiliki
+              passion dan minat dalam menciptakan solusi UI dan UX yang memudahkan setiap pengguna dalam sebuat platform.
             </p>
           </div>
         )}
@@ -23,25 +22,22 @@ const About = () => {
         {tab == 2 && (
           <div>
             <h1 className="border-bottom mt-5 text-dark display-6 pb-4 text-center">
-              #2
+              Desain
             </h1>
             <p className="text-dark fs-5 text-center">
-              Saya memahami betul bahwa desain bukan sekadar menciptakan
-              tampilan yang indah, namun juga harus memiliki makna dan tujuan
-              yang jelas.
+              Dalam Bidang Desain Skill yang saya miliki adalah penguasaan tools figma dalam desain , penggunaan plugin, prototyping 
+              ,Beberapa tools lain adalah adobe photoshop, lightroom, Ilustrator, dan juga corel draw
             </p>
           </div>
         )}
         {tab == 3 && (
           <div>
             <h1 className="border-bottom mt-5 text-dark display-6 pb-4 text-center">
-              #3
+              Developer
             </h1>
             <p className="text-dark fs-5 text-center">
-            Jika Anda tertarik untuk bekerja sama atau memberikan
-              masukan dan saran, jangan ragu untuk menghubungi saya. Saya siap
-              untuk belajar dan berkembang bersama Anda melalui desain web/app
-              yang luar biasa.
+            Untuk skill dalam bidang developer yang saya ampu adalah ReactJs,TailwindCSS,plugin flowbite,Bootstrap 5
+            , PHP native ,Code Igniter,Rest API, QA with cypress, Chat Realtime with SocketIO 
             </p>
           </div>
         )}

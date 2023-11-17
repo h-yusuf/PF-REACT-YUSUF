@@ -5,7 +5,7 @@ const ContactHero = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-11 mx-auto'>
-                            <h1 className='text-white text-center display-5 fw-medium'>
+                            <h1 className='text-white text-center display-5 fw-medium h-home'>
                                 Contact
                             </h1>
                         </div>
